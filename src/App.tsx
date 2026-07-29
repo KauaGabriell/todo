@@ -1,4 +1,4 @@
-import trashSvg from "../src/assets/icons/Trash-Regular.svg";
+import { Text } from "./components/Text";
 export default function App() {
-	return <img src={trashSvg} alt="" />;
+	return <Text variant="body-md-semibold">Hello World</Text>;
 }
