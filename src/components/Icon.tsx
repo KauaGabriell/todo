@@ -13,7 +13,7 @@ export const IconVariants = cva("", {
 	},
 });
 
-type IconProps = React.ComponentProps<"svg"> &
+export type IconProps = React.ComponentProps<"svg"> &
 	VariantProps<typeof IconVariants> & {
 		svg: React.FC<React.ComponentProps<"svg">>;
 	};
