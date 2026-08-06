@@ -2,6 +2,7 @@ import Plus from "../src/assets/icons/Plus-Regular.svg?react";
 import TrashIcon from "../src/assets/icons/Trash-Regular.svg?react";
 import { Badge } from "./components/Badge";
 import { Button } from "./components/Button";
+import { Card } from "./components/Card";
 import { Icon } from "./components/Icon";
 import { IconButton } from "./components/IconButton";
 import { InputText } from "./components/InputText";
@@ -18,6 +19,9 @@ export default function App() {
 			<IconButton icon={TrashIcon} variant={"secondary"} />
 			<IconButton icon={TrashIcon} variant={"terciary"} />
 			<InputText />
+			<br />
+
+			<Card />
 		</div>
 	);
 }
