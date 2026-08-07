@@ -1,4 +1,5 @@
 import { Container } from "../components/Container";
+import { Task } from "../components/core-components/Task";
 import { TasksSummary } from "../components/core-components/TasksSummary";
 export function Home() {
 	return (
@@ -6,6 +7,9 @@ export function Home() {
 			<header className="flex items-center justify-between">
 				<TasksSummary />
 			</header>
+			<main>
+				<Task />
+			</main>
 		</Container>
 	);
 }
